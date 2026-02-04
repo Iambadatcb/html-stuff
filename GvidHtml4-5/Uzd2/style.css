@@ -1,0 +1,29 @@
+ div {
+     display: inline-block block;
+     margin: auto;
+     width: 60%;
+     border: 3px;
+     padding: 10px;
+
+ }
+
+ input[type=text],
+ input[type=tel],
+ input[type=email],
+ input[type=password],
+ label[for=fname],
+ textarea,
+ select,
+ input[type=date],
+ input[type=color],
+ input[type=url] {
+     align-items: center;
+     display: inline-block;
+
+ }
+
+ .div-left,
+ .div-right {
+     display: inline-block;
+     width: 48%;
+ }

@@ -1,0 +1,17 @@
+div{
+    width: 3000px;
+    height: 3000px;
+    background-color: black;
+    background-image: url(IMG/flag.jpg),url(IMG/castle-removebg-preview.png),url(IMG/moons.jpg),url(IMG/mountains.jpg);
+    background-position: top center,bottom center, top right, bottom center;
+    background-repeat: no-repeat, no-repeat, no-repeat ;
+    background-size: 25%, cover, 25%, cover ;
+}
+
+
+img{
+    /* size: 5px; */
+    width: 10%;
+    height: 10%;
+    transform:  rotate(15deg) skew(30deg);
+}

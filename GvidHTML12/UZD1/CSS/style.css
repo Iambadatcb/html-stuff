@@ -1,0 +1,14 @@
+.container{
+    display:inline;
+    position:left;
+}
+p{
+    position: relative;
+    bottom:800px;
+    font-size:5rem;
+    color: white;
+    word-wrap:normal;
+}
+img{
+    width:100%;
+}

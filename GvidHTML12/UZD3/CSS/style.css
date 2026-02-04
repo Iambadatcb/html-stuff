@@ -1,0 +1,13 @@
+.parent{
+    width:300px;
+    height:200px;
+    background-image: url("../IMG/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.element{
+    background-color: rgba(0, 255, 0, 0.452);
+    position:relative;
+    top:182px;
+}

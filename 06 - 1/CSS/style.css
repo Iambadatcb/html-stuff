@@ -1,0 +1,25 @@
+        *{
+			box-sizing: border-box;
+
+		}
+		.container{
+			background-color: darkgrey;
+            height: 500px;
+		}
+		.box{
+            /* display:inline; */
+            width: 30%;
+			border: 2px solid black;
+			float: left;
+            margin:10px;
+			background-color: black;
+            color:white;
+            /* text-size-adjust: 2rem; */
+            padding:1rem;
+            text-align: left;
+		}
+		.box::after{
+            content:"";
+            display:block;
+			clear:both;
+		}

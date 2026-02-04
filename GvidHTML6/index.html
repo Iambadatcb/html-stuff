@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="max-width: 1200px; margin:0 auto; padding: 13%;">
+    <header>
+        <h1>Lietuviški patiekalai</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Apie</h2>
+            <article>
+                <p class="text">Lietuviška virtuvė pasižymi sotumu ir paprastais, vietiniais ingredientais. Populiariausi patiekalai - <b>cepelinai</b>, <b>šaltibarščiai</b> ir <b>kugelis</b>. Žemiau rasi trumpą pristatymą, nuotraukų galeriją, ingredientų lentelę bei kontaktų formą.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Galerija</h2>
+            <p class="text">Keletas žinomų lietuviškų pateikalų:</p>
+            <figure>
+                <img src="IMG/cepakai.jpg" alt="cepelinai" style="width: 100%;">
+                <figcaption>Cepelinai</figcaption>
+            </figure>
+            <figure>
+                <img src="IMG/saltibarsciai.jpg" alt="šaltibarščiai" style="width: 100%;">
+                <figcaption>Šaltibarščiai</figcaption>
+            </figure>
+            <figure>
+                <img src="IMG/kugelis.jpg" alt="kugelis" style="width: 100%;">
+                <figcaption>Kugelis</figcaption>
+            </figure>
+            <p style="color: grey;"class="text">Nuotraukos iš Google (švietimo tikslams tinkamos). jei reikia - pakeiskite į vietinius failus img/foto1.jpg ir pan.</p>
+        </section>
+        <section>
+            <h2>Ingredientai (kugelio pavyzdys)</h2>
+            <p class="text">Šioje lentelėje - pagrindiniai tradicinio kugelio ingredientai ~4 porcijoms.</p>
+            <table>
+                <caption><b>Kugelio sudėtis</b></caption>
+                <tr>
+                    <th>Ingredientas</th>
+                    <th>Kiekis</th>
+                </tr>
+                <tr>
+                    <td>Bulvės</td>
+                    <td>1,5 kg</td>
+                </tr>
+                <tr>
+                    <td>Kiaušiniai</td>
+                    <td>3 vnt.</td>
+                </tr>
+                <tr>
+                    <td>Šoninė</td>
+                    <td>150 g</td>
+                </tr>
+                <tr>
+                    <td>Svogūnas</td>
+                    <td>1 vnt.</td>
+                </tr>
+                <tr>
+                    <td>Pienas arba grietinėlė</td>
+                    <td>200 ml</td>
+                </tr>
+                <tr>
+                    <td>Druska, pipirai</td>
+                    <td>pagal skonį</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Kontakų forma</h2>
+            <p class="text">Turite klausimų ar pasiūlymų apie lietuviškus patiekalus? Parašykite:</p>
+            <form action="get">
+                <div>
+                    <label for="vardas">Vardas</label>
+                    <input type="text" id="vardas" name="vardas" placeholder="Jūsų vardas">
+                </div>
+                <div>
+                    <label for="email">El. paštas</label>
+                    <input type="email" name="email" id="email" placeholder="vardas@pastas.lt">
+                </div>
+                <div>
+                    <label for="tema">Tema</label>
+                    <select id="tema">
+                        <option value="receptu">Receptų klausimas</option>
+                        <option value="">Filler</option>
+                        <option value="">Filler</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="zinute">Žinutė</label>
+                    <textarea id="zinute" placeholder="Trumpai aprašykite klausimą..." rows="5" cols="10"></textarea>
+                </div>
+                <button>Siųsti</button>
+            </form>
+        </section>
+        <footer>
+            <p class="author">&copy; 2025 Lietuviški patiekalai &#x2022; Mokomasis pavyzdys</p>
+        </footer>
+    </main>
+    </div>
+</body>
+</html>

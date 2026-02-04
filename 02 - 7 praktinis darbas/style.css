@@ -1,0 +1,6 @@
+[href*="cv"]::before{
+    content:"♛";
+}
+[href*="darb"]::after{
+    content:"♞";
+}

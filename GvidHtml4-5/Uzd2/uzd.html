@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="background-color: lightgrey;">
+        <div style="background-color: blue;">
+            <h2 style="color:white; text-align: center;">Kelionės registracija</h2>
+            <div style="background-color: white; width: 98%;">
+                <h2 style="text-align: center;">Užpildykite formą</h2>
+                <form>
+                    <div class="div-left"><label for="name">Vardas ir pavardė:</label>
+                        <input type="text" name="fname+Lname" placeholder="Vardas Pavardė" id="name"
+                            style="height: 25px;" required>
+
+                        <label for="email">El.paštas:</label>
+                        <input type="email" name="email" id="email" placeholder="vardas@pavyzdys.lt"
+                            style="height: 25px;" required>
+
+                        <label for="numb">Telefono numeris:</label>
+                        <input type="tel" placeholder="0370-6xx-xxxxx" name="numb" id="num" style="height: 25px;"
+                            required>
+
+                        <label for="dob">Gimimo data:</label>
+                        <input type="date" placeholder="yyyy-mm-dd" name="dob" id="dob" style="height: 25px;" required>
+                    </div>
+
+                    <div class="div-right"><label for="dest">Kelionės kryptis:</label>
+                        <select id="dest" name="dest" style="height: 25px;align-self: right;" required>
+                            <option value="">Pasirinkite...</option>
+                            <option value="USA">USA</option>
+                            <option value="Germany">Germany</option>
+                            <option value="China">China</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+
+                        <label for="color">Lagaminų spalva:</label>
+                        <input type="color" name="color" id="color" required>
+
+                        <label for="html">Tinklapis (jei turite):</label>
+                        <input type="url" name="site" id="html" placeholder="https://..." style="height: 25px;">
+
+                        <label for="info">Papildoma informacija:</label>
+                        <textarea id="info" placeholder="Pageidavimai, alergijos..." rows="5" cols="15"></textarea>
+                    </div>
+
+                    <button style="width: 50%; height: 40px; background-color: blue; color: white;">Pateikti</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

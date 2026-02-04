@@ -1,0 +1,50 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+
+.grid-container{
+    display:grid;
+}
+.grid-container--fit{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.head{
+    margin-bottom:auto;
+    grid-column:1/-1;
+    background-color: black;
+    padding:50px;
+}
+.bottom{
+    grid-column:1/-1;
+    margin-top:auto;
+    background-color: black;
+    padding:50px;
+}
+.left,.right{
+    background-color: darkgrey;
+    padding:50px;
+}
+/* .leftch,.rightch{
+    background-color:darkgrey;
+    
+} */
+.checkr,.checkrb{
+    background-color:grey;
+}
+.checkl{
+    background-color:lightgrey;
+}
+.checkr,.checkl,.checkrb{
+    padding: 50px;
+}
+.checkr{
+    grid-column: 1/1;
+}
+.checkrb{
+    grid-column:2;
+    grid-row:2/2
+}
+.rightch{
+    display:grid;
+}

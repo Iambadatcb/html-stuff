@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	padding: 1em;
+}
+
+header nav li{
+	display: inline-block;
+	padding: 1em;
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article{
+	flex-basis: 50%;
+	flex-grow: 1;
+	margin-top: 1em;
+}
+
+article figure{
+	float: left;
+	margin-right: 1em;
+}
+
+aside nav li{
+	padding: 1em;
+	display: inline-block;
+}
+
+aside{
+	margin-top: 1em;
+}
+
+header{
+	background-color:rgb(58, 58, 58);
+}
+
+header h1{
+	color:white;
+}
+
+header h1 span{
+	color:orange;
+	font-size: 50px;
+}
+header nav{
+	background-color: rgb(121, 121, 121);
+}
+header a{
+	color:white;
+	text-decoration-line:none ;
+}
+main .container h3{
+	text-transform: uppercase;
+}
+main .container figcaption{
+	color:orange;
+	text-align: right;
+	font-style:italic;
+}
+main .container span{
+	letter-spacing: 15px;
+	color:orange;
+}
+main .container article a{
+	color:orange;
+	text-transform: uppercase;
+	text-decoration-line: none;
+}
+main aside{
+	text-align: center;
+}
+main aside h4{
+	background-color:rgb(104, 104, 104);
+	color:white;
+	letter-spacing:30px;
+	/* word-spacing:10px; */
+	text-transform: uppercase;
+}
+main aside nav a{
+	text-decoration-line:none ;
+	color:orange;
+}
+footer{
+	background-color:rgb(58, 58, 58);
+	color:white;
+	text-align:center;
+}
+footer .fa-linkedin{
+	background-color:orange;
+	color:black;
+	
+}
+footer .fa-facebook{
+	background-color:orange;
+	color:black;
+	
+}
+footer .fa-twitter{
+	background-color:orange;
+	color:black;
+	
+}

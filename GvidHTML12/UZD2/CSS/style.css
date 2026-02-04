@@ -1,0 +1,26 @@
+.container{
+    /* display:inline-block; */
+    height:50%;
+    margin-left: 15%;
+    width: 600px;
+    background-color:grey;
+    align-items: center;
+    text-align: center;
+    border:2px solid black;
+}
+p{
+    /* position: relative; */
+    word-wrap: break-word;
+    text-align: center;
+    /* width:10%; */
+    
+}
+img{
+    width: 20%;
+    position: relative;
+    left: 100px;
+    bottom:25px;
+}
+button{     
+    text-align: center;
+}

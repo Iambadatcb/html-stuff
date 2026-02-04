@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+div{
+    background-color:brown;
+}
+.skirt{
+    text-align: center;
+    background-color: aliceblue;
+}
+.por{
+    text-align: center;
+    background-color: aqua;
+}
+.ant{
+    text-align: center;
+    background-color: aquamarine;
+}

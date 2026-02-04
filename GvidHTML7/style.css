@@ -1,0 +1,26 @@
+h1, h2{
+    color:blue;
+}
+p{
+    color:brown;
+}
+/* Makes the h2 in section purple(only in section)*/
+/* section h2{
+    color:purple
+} */
+
+a:link{
+    color:red
+}
+a:visited{
+    color:green
+}
+a:hover{
+    color:blue
+}
+a:hover{
+    color:pink
+}
+a:active{
+    color:aqua
+}
