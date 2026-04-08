@@ -3,3 +3,11 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+header{
+    background-color: darkorchid;
+    height: 250px;
+    align-items: center;
+}
+section{
+    background-color: darkslateblue;
+}
